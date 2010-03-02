@@ -9,6 +9,7 @@ Cube::Cube(): r(3.0f), tetha(D3DX_PI/3), phi(D3DX_PI/6)
 {
 };
 
+
 HRESULT Cube::InitialObject()
 {
 	const float coord = 0.5f;
